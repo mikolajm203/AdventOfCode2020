@@ -34,6 +34,7 @@ list<password> inputHandler()
 	while (getline(f, line)) {
 		ret.push_back(stopas(line));
 	}
+	f.close();
 	return ret;
 }
 
